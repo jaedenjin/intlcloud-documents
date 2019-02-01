@@ -7,7 +7,7 @@ When a postpaid resource is activated, the system estimates the amount to be fro
 
 - If you change the configuration of a postpaid resource, the previous frozen amount will be unfrozen and then be frozen again based on the unit price of new configuration.
 
-- When the resource is reclaimed, the frozen amount will be unfrozen by the settlement date (the first day) of next month.
+- When the resource is released, the frozen amount will be unfrozen immediately.
 
 ## Billing cycle: monthly
 
@@ -26,7 +26,7 @@ When a postpaid resource is activated, the system estimates the amount to be fro
 
 ### 1. Has the frozen amount been paid to the platform?
 
-The frozen amount cannot be spent and cannot be withdrawn. According to billing cycle, the cloud service fee frozen in the last month will be unfrozen on the settlement date (the third day) of next month and the fee for the resource used in the last month is deducted from the unfrozen amount. The frozen fee will also be unfrozen after the resource is reclaimed.
+The frozen amount cannot be spent and cannot be withdrawn. According to billing cycle, The cloud service fee frozen in the last month will be unfrozen on the settlement date (the third day) of next month and the fee for the resource used in the last month is deducted from the unfrozen amount. The frozen fee will also be unfrozen after the resource is released.
 
 ### 2. How do I check the details of frozen and unfrozen amount?
 
